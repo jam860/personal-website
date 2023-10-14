@@ -1,0 +1,185 @@
+
+.intro {
+    justify-content: center;
+    padding: 6vw 12vw;
+  }
+
+  .personal-photo {
+    box-shadow: 0 2px 5px rgb(124, 120, 120);
+  }
+  
+  .photo-container {
+    display: none;
+    padding-right: 2rem;
+  }
+  
+  main .intro {
+    color: black;
+  }
+
+  .intro-text-container {
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  .intro-text-container p {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+  
+  .carousel {
+    background-color: #c4d4e6;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .imagecontainer h1 {
+    color: white;
+  }
+  
+  .carousel-title {
+    margin-bottom: 2rem;
+    text-align: center;   
+    font-size: 2.5rem;
+  }
+  
+  .carousel-text {
+    display: none;
+  }
+  
+  .carousel-subtitle {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.3rem;
+  } 
+
+
+  .imagecontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  .centered {
+    font-size: 3.5rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .swiper, .horizontal {
+    width: 250px;
+    height: 150px;
+  }
+  
+  .horizontal {
+    filter: brightness(30%);
+  }
+  
+  .vertical {
+    width: 200px;
+    height: 300px;
+    filter: brightness(30%);
+  }
+  
+  .vertical {
+    background-color: black;
+  }
+
+  @media (min-width: 325px) {
+    .carousel-title {
+      font-size: 2.65rem;
+    }
+
+    .carousel-subtitle {
+      font-size: 2.0rem;
+    }
+
+    .swiper, .horizontal {
+      width: 280px;
+      height: 165px;
+    }
+  }
+
+  @media (min-width: 460px) {
+    .swiper, .horizontal {
+      width: 440px;
+      height: 250px;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .swiper, .horizontal {
+      width: 500px;
+      height: 275px;
+    }
+  }
+
+  @media (min-width: 769px) {
+    .intro {
+      display: flex;
+    }
+
+    .personal-photo {
+      width: 200px;
+      height: 300px;
+    }
+
+    .photo-container {
+      display: block;
+    }
+
+    .photo-container-mobile {
+      display: none;
+    }
+
+    .intro-text-container {
+      width: 50%;
+      padding-left: 3rem;
+    }
+
+    .intro-text-container p {
+      font-size: 1.4rem;
+    }
+
+    .carousel-text {
+      font-size: 1.5rem;
+      display: block;
+    }
+
+    .vertical {
+      width: 260px;
+      height: 500px;
+    }
+
+    .swiper, .horizontal {
+      width: 680px;
+      height: 380px;
+    }
+  }
+
+  @media (min-width: 896px) {
+    .personal-photo {
+      width: 260px;
+      height: 400px;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .personal-photo {
+      width: 355px;
+      height: 555px;
+    }
+
+    .intro-text-container p {
+      font-size: 1.8rem;
+    }
+
+    .swiper, .horizontal {
+      width: 900px;
+      height: 500px;
+    }
+  }

@@ -1,0 +1,75 @@
+.message-form-title {
+    font-weight: 600;
+  }
+  
+  .article-card p {
+    display: block;
+  
+  }
+  
+  .article-card a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .contact-page {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .contact-container {
+    padding-bottom: 7rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  
+  .contact-form {
+    background-color: #303E8C;
+    box-shadow: -1px -6px 7px 11px rgba(0,0,0,0.05);
+    padding: 1rem 3rem 3rem 3rem;
+    border-radius: 0.6rem;
+  }
+
+  .contact-form h2, .contact-form label {
+    color: white;
+  }
+  
+  .contact-form .form-c {
+    background-color: rgb(235, 232, 232);
+    border:  #111111
+  }
+
+  .contact-form button {
+    background-color: white;
+    color: #303E8C;
+  }
+
+  .about-me-photo {
+    width: 200px;
+    height: 300px;
+    box-shadow: 0 2px 5px rgb(124, 120, 120);
+  }
+  
+  @media (min-width: 769px) {
+    .contact-container {
+      padding-top: 4.5rem;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .contact-text {
+      font-size: 1.2rem;
+      width: 50%;
+    }
+
+    .contact-container {
+      display: flex;
+      justify-content: center;
+      gap: 50px
+    }
+
+    .about-me-photo {
+      width: 400px;
+      height: 600px;
+    }
+  }

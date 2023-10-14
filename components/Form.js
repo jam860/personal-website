@@ -46,7 +46,7 @@ export default function Form() {
 
     return (
         <div>
-            <form name="contact" method="POST" onSubmit={handleSubmit(handleSave, handleInvalid)} >
+            <form name="contact" onSubmit={handleSubmit(handleSave, handleInvalid)} >
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="top-form-buttons">
                     <div className="name-textbox">

@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
         <div>
             <header className="site-header">
                 <nav className="nav">
-                    <Link href="/"><div className='logo'><img src="/img/james-logo.png"/></div></Link>
+                    <Link href="/"><div className='logo'><img src="/img/james-logo.png" aria-label="logo"/></div></Link>
                         {/* <Link href="/"></Link> */}
                     <ul className='nav-links'>
                         <li><Link className="nav-link-i" href="/"></Link></li>

@@ -1,5 +1,5 @@
 import ArticleCard from "../../components/ArticleCard"
-import styles from '/styles/blogpreview.module.css';
+import styles from "/styles/blogpreview.module.css";
 
 export default function Blog() {
     const articleAPI = [
@@ -20,7 +20,7 @@ export default function Blog() {
             <div className={styles["blog-preview-description"]}>
                 <h1 className={styles["blog-title"]}>Blog</h1>
                 <div className={styles["blog-description-container"]}>
-                    <p className={styles["blog-description"]}>I blog about classes I've taken and projects I've done!</p>
+                    <p className={styles["blog-description"]}>I blog about classes Ive taken and projects I&apos;ve done!</p>
                 </div>
             </div>
             <div className={styles["article-cards"]}>

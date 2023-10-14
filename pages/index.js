@@ -50,9 +50,9 @@ export default function Home() {
           <div className={styles['photo-container-mobile']}>
             <img className={styles['personal-photo']} src={"/img/james.jpg"} width="200" height="300" alt="James Nguyen" />
           </div>
-          <p>I'm James!</p>
-          <p>I'm an Informatics student with a focus in Human-Computer Interaction and Software Development at the University of Washington iSchool!</p>
-          <p>Let's connect!<br/>Email: jam860@uw.edu</p>
+          <p>I&apos;m James!</p>
+          <p>I&apos;m an Informatics student with a focus in Human-Computer Interaction and Software Development at the University of Washington iSchool!</p>
+          <p>Let&apos;s connect!<br/>Email: jam860@uw.edu</p>
           <SocialMedia />
         </div>
       </div>

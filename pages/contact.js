@@ -9,7 +9,7 @@ export default function Contact() {
                 <div className={styles["contact-container"]}>
                     <img className={styles["about-me-photo"]} src="img/james-2.jpg" alt="james"/>
                     <div className={styles["contact-text"]}>
-                        <h2>About Me</h2>
+                        <h1>About Me</h1>
                         <p>I&apos;m an Informatics student with a focus in Human-Computer Interaction and Software Development at the University of Washington iSchool! I am currently the director of outreach for the iSchool&apos;s queer affinity group, iQueeries.</p>
                         
                         <p>I&apos;m currently interested in front-end development and creating web applications that everyone can use. Furthermore, I&apos;m interested in the Human-Computer Interaction side of informatics, specifically learning about how we can make user interfaces and systems user-friendly and efficient.</p>

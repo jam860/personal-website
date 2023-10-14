@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }) {
             <footer>
                 <div className="footer-message-container">
                 <div>
-                    <Link href="/"><div className='logo-footer'><img src="/img/james-logo.png"/></div></Link>
+                    <Link href="/"><div className='logo-footer'><img src="/img/james-logo.png" aria-label="logo"/></div></Link>
                 </div>
                     <div className="footer-message-icon">
                         <div className="footer-message">

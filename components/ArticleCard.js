@@ -10,8 +10,7 @@ export default function ArticleCard(props) {
                     <Link href={"blog/" + props.class} className={styles["article-link"]}><p className={styles["preview-descr"]}>{props.description}</p></Link>
                 </div>
                 <div className={styles["article-image"]}>
-                    <Link href={"blog/" + props.class} className={styles["article-link"]}><img className={`${styles.blogPreviewImg} ${styles[props.class]}`} src={"/img/" + props.class + ".png"} /></Link>
-
+                    <Link href={"blog/" + props.class} className={styles["article-link"]}><img className={`${styles.blogPreviewImg} ${styles[props.class]}`} src={"/img/" + props.class + ".png"} alt="article preview" /></Link>
                 </div>
                 
             </div>

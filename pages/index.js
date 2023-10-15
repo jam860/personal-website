@@ -34,10 +34,10 @@ export default function Home() {
         el: '.swiper-scrollbar',
       },
 
-      // autoplay: {
-      //   delay: 5800,
-      //   disableOnInteraction: false,
-      // },
+      autoplay: {
+        delay: 5800,
+        disableOnInteraction: false,
+      },
     })
   }, []);
 

@@ -4,10 +4,10 @@ import styles from "/styles/blogpreview.module.css";
 export default function Blog() {
     const articleAPI = [
             {title:"Personal Website", description:"Before making this website, I took a class called INFO 340, a web development class that inspired me to make this website. Since this was my first web development class, I was worried at first since I was a pretty slow...", class: "info340"},
-            {title:"INFO 360: Design Methods", description:"INFO 360 is a course that analyzes the process of creating a user interface, discussing what makes them effective, and applying theories that guides us in being good...", class:"info360"},
-            {title:"INFO 200: Foundations of Informatics", description:"INFO 200 was my very first course taken at the University of Washington. It was an overview of all the topics the Informatics major covered, and heavily emphasized how...", class:"info200"},
-            {title:"INFO 350: Information Ethics and Policy", description:"INFO 350 covered the ethical side of technology. We focused on current events that were happening our world such as ChatGPT's upbringing, AI in creative spaces, and...", class:"info350"},
-            {title:"INFO 330: Databases and Data Modeling", description:"INFO 330 delved into databases, learned about SQL and making stored procedures, and more. Learning about the uses of a database and how they all intertwine...", class:"info330"},
+            {title:"VisitUW", description:"We decided to build a mobile application for the University of Washington. More specifically, we wanted to create an application that would help tourists find attractions...", class:"info360"},
+            {title:"UW Counseling Center Redesign", description:"Our goal was to identify an information problem within our community, and think of ways that we can solve it. I joined four others for this project project, and many of us had different ideas...", class:"info200"},
+            {title:"AI Busted!!", description:"We created a small podcast called AI Busted!! to explore the use of AI in the criminal justice system. We wanted to learn more about how AI is utilized in law enforcement and to educate people about the potential...", class:"info350"},
+            {title:"Theater Database", description:" Our primary goal for this project was to create a database that provided relavent data about the movie industry. We had various users that were included in this database: directors, consumers, theater operators...", class:"info330"},
     ]
 
     let ArticleCardComponents = articleAPI.map((article) => {
@@ -20,7 +20,7 @@ export default function Blog() {
             <div className={styles["blog-preview-description"]}>
                 <h1 className={styles["blog-title"]}>Blog</h1>
                 <div className={styles["blog-description-container"]}>
-                    <p className={styles["blog-description"]}>I blog about classes I&apos;ve taken and projects I&apos;ve done!</p>
+                    <p className={styles["blog-description"]}>I blog about projects I&apos;ve done and my expereinces with classes at UW!</p>
                 </div>
             </div>
             <div className={styles["article-cards"]}>

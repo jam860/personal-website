@@ -76,21 +76,21 @@ export default function Home() {
           <div className="swiper-slide">
             <div className={styles["imagecontainer"]}>
               <img className={styles["horizontal"]} src="/img/info330.png" alt="Entity Relationship Diagram for INFO330 project"/><Link href="/blog/info330"><div className={styles["centered"]}>
-                <h1 className="carousel-class">INFO 330</h1>
+                <h1 className="carousel-class">Theater Database</h1>
                 <p className={styles["carousel-text"]}>Read about my journey with SQL, databases and making stored procedueres!</p></div></Link>
             </div>
           </div>
           <div className="swiper-slide">
             <div className={styles["imagecontainer"]}>
               <img className={styles["horizontal"]} src="/img/info200.png" alt="UW Counseling Center Website Redesign for INFO200"/><Link href="/blog/info200"><div className={styles["centered"]}>
-                <h1 className="carousel-class">INFO 200</h1>
+                <h1 className="carousel-class">UW Counseling Center Redesign</h1>
                 <p className={styles["carousel-text"]}>Read about my process with designing a website for the UW Counseling Center!</p></div></Link>
             </div>
           </div>
           <div className="swiper-slide">
             <div className={styles["imagecontainer"]}>
               <img className={styles["horizontal"]} src="/img/info350.png" alt="a portion of an article about AI"/><Link href="/blog/info350"><div className={styles["centered"]}>
-                <h1 className="carousel-class">INFO 350</h1>
+                <h1 className="carousel-class">AI Busted!!</h1>
                 <p className={styles["carousel-text"]}>Read about how I helped make a short podcast about the use of AI within the criminal justice system!</p></div></Link>
             </div>
           </div>

@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
                     <Link href="/"><div className='logo'><img src="/img/james-logo.png" aria-label="logo"/></div></Link>
                         {/* <Link href="/"></Link> */}
                     <ul className='nav-links'>
-                        <li><Link className="nav-link-i" href="/"></Link></li>
+                    <li><Link className="nav-link-i" href="/">HOME</Link></li>
                         <li><Link className="nav-link-i" href="/blog">BLOG</Link></li>
                         <li><Link className="nav-link-i" href="/contact">ABOUT ME</Link></li>
                     </ul>

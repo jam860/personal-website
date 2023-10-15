@@ -322,8 +322,11 @@ footer h2 {
   }
 
   .nav-link-i {
-    font-size: 2.1rem;
-    padding-right: 1.8rem;
+    font-size: 1.7rem;
+  }
+
+  .nav-links li {
+    padding-right: 1.2rem;
   }
 
   header img {
@@ -384,6 +387,15 @@ footer h2 {
     width: 900px;
     height: 500px;
   }
+
+  .nav-link-i {
+    font-size: 2.1rem;
+  }
+
+  .nav-links li {
+    padding-right: 2rem;
+  }
+
 }
 
 }

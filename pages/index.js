@@ -2,6 +2,9 @@
 import SocialMedia from '../components/SocialMedia';
 import { useEffect } from 'react';
 import Swiper from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import { Navigation, Pagination, Autoplay} from 'swiper/modules';
 import Link from 'next/link';
 import styles from '../styles/index.module.css';

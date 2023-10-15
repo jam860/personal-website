@@ -42,10 +42,6 @@ main {
   background-color: #e5eef6;
 }
 
-:root {
-  --swiper-theme-color: white;
-}
-
 .nav-menu {
   display: block;
 }

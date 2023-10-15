@@ -1,4 +1,4 @@
-import Form from "../components/Form";
+// import Form from "../components/Form";
 import SocialMedia from "../components/SocialMedia";
 import styles from "../styles/contact.module.css";
 

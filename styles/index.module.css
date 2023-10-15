@@ -89,6 +89,10 @@
     background-color: black;
   }
 
+  :root .carousel {
+    --swiper-theme-color: white;
+  }
+
   @media (min-width: 325px) {
     .carousel-title {
       font-size: 2.65rem;

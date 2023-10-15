@@ -1,9 +1,6 @@
 import Link from "next/link";
 import SocialMedia from "../components/SocialMedia";
-import Form from "../components/Form";
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+// import Form from "../components/Form";
 import '../styles/globals.css';
 
 export default function App({ Component, pageProps }) {

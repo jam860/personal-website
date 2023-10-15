@@ -22,7 +22,6 @@ h1 {
   font-weight: 700;
   font-size: 2.65rem;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
-  font-size: 2.65rem;
   color: #303E8C;
 }
 
@@ -213,9 +212,10 @@ footer h2 {
 }
 
 .swiper, .horizontal {
-  width: 250px;
+  width: 230px;
   height: 150px;
 }
+
 
 .button {
   background-color: white;
@@ -254,7 +254,7 @@ footer h2 {
 
 @media (min-width: 325px) {
   .swiper, .horizontal {
-    width: 280px;
+    width: 310px;
     height: 165px;
   }
 }

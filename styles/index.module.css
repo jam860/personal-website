@@ -33,8 +33,17 @@
     padding-bottom: 3rem;
   }
 
+  .carousel-words {
+    font-size: 1.5rem;
+  }
+
   .imagecontainer h1 {
     color: white;
+  }
+
+  .swiper, .horizontal {
+    width: 230px;
+    height: 150px;
   }
   
   .carousel-title {
@@ -69,11 +78,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
-  .swiper, .horizontal {
-    width: 250px;
-    height: 150px;
+
+  .centered h1 {
+    font-size: 1.5rem;
   }
+  
   
   .horizontal {
     filter: brightness(30%);
@@ -103,7 +112,7 @@
     }
 
     .swiper, .horizontal {
-      width: 280px;
+      width: 310px;
       height: 165px;
     }
   }
@@ -112,6 +121,11 @@
     .swiper, .horizontal {
       width: 440px;
       height: 250px;
+    }
+
+    .carousel-text {
+      font-size: 1rem;
+      display: block;
     }
   }
 
@@ -151,7 +165,10 @@
 
     .carousel-text {
       font-size: 1.5rem;
-      display: block;
+    }
+    
+    .centered h1 {
+      font-size: 3.3rem;
     }
 
     .vertical {

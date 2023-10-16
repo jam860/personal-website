@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }) {
                     <ul className='nav-links'>
                     <li><Link className="nav-link-i" href="/">HOME</Link></li>
                         <li><Link className="nav-link-i" href="/blog">BLOG</Link></li>
-                        <li><Link className="nav-link-i" href="/contact">ABOUT ME</Link></li>
+                        <li><Link className="nav-link-i" href="/about">ABOUT ME</Link></li>
                     </ul>
                 </nav>
             </header>

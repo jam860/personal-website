@@ -15,7 +15,7 @@ export default function Contact() {
                         <p>I&apos;m currently interested in front-end development and creating web applications that everyone can use. Furthermore, I&apos;m interested in the Human-Computer Interaction side of informatics, specifically learning about how we can make user interfaces and systems user-friendly and efficient.</p>
                         
                         <p>Outside of academics, I enjoy learning languages, playing video games and exploring Seattle!</p>
-                        <p>Have any questions or comments? Connect with me on Linkedin or by email!
+                        <p>Have any questions or comments? Connect with me on LinkedIn or by email!
                             <br />Email: jam860@uw.edu
                         </p>
                         <SocialMedia />

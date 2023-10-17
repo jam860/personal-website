@@ -18,7 +18,7 @@ export default function Blog() {
     return (
         <>
             <Head>
-                <title>Blog Preview</title>
+                <title>Blog</title>
                 <meta name="James Nguyen" />
                 <meta name="description" content="Blog Preview Page" />
                 <link rel="icon" type="image/png" href="/img/logo-icon.png"></link>

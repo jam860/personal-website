@@ -45,7 +45,7 @@ export default function Home() {
   return (
     <>
     <Head>
-				<title>James' Homepage</title>
+				<title>Home</title>
 				<meta name="James Nguyen"/>
 				<meta name="description" content="introduction of James"/>
         <link rel="icon" type="image/png" href="/img/logo-icon.png"></link>

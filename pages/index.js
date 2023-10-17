@@ -8,6 +8,7 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination, Autoplay} from 'swiper/modules';
 import Link from 'next/link';
 import styles from '../styles/index.module.css';
+import Head from 'next/head'
 
 export default function Home() {
   useEffect(() => {
@@ -43,6 +44,12 @@ export default function Home() {
 
   return (
     <>
+    <Head>
+				<title>James' Homepage</title>
+				<meta name="James Nguyen"/>
+				<meta name="description" content="introduction of James"/>
+        <link rel="icon" type="image/png" href="/img/logo-icon.png"></link>
+		</Head>
     <section>
       <div className={styles.intro}>
         <div className={styles['photo-container']}>

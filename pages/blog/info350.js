@@ -1,8 +1,16 @@
 import Link from "next/link"
 import styles from "/styles/article.module.css";
+import Head from "next/head";
 
 export default function Info350() {
     return (
+        <>
+        <Head>
+			<title>AI Busted!! Blog</title>
+			<meta name="James Nguyen"/>
+			<meta name="description" content="expereinces with making a podcast for AI Busted!! and INFO350"/>
+            <link rel="icon" type="image/png" href="/img/logo-icon.png"></link>
+		</Head>
         <div className={styles["article-page"]}>
             <div className={styles["article-content-container"]}>
                 <div className={styles["content"]}>
@@ -41,6 +49,6 @@ export default function Info350() {
                 </div>
             </div>
         </div>
-
+        </>
     )
 }

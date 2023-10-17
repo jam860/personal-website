@@ -1,8 +1,16 @@
 import Link from "next/link"
 import styles from "/styles/article.module.css";
+import Head from "next/head";
 
 export default function Info330() {
     return (
+        <>
+        <Head>
+			<title>Theater Database Blog</title>
+			<meta name="James Nguyen"/>
+			<meta name="description" content="expereinces with building a database and INFO330"/>
+            <link rel="icon" type="image/png" href="/img/logo-icon.png"></link>
+		</Head>
         <div className={styles["article-page"]}>
             <div className={styles["article-content-container"]}>
                 <div className={styles["content"]}>
@@ -64,5 +72,6 @@ export default function Info330() {
                 </div>
             </div>
         </div>
+        </>
     )
 }

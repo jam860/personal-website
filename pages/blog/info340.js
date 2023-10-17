@@ -1,8 +1,16 @@
 import Link from "next/link"
 import styles from "/styles/article.module.css";
+import Head from "next/head";
 
 export default function Info340() {
     return (
+        <>
+        <Head>
+			<title>Personal Website Blog</title>
+			<meta name="James Nguyen"/>
+			<meta name="description" content="expereinces with making my own website"/>
+            <link rel="icon" type="image/png" href="/img/logo-icon.png"></link>
+		</Head>
         <div className={styles["article-page"]}>
             <div className={styles["article-content-container"]}>
                 <div className={styles["content"]}>
@@ -42,5 +50,6 @@ export default function Info340() {
                 </div>
             </div>
         </div>
+        </>
     )
 }

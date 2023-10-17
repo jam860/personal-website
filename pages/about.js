@@ -1,10 +1,17 @@
 // import Form from "../components/Form";
 import SocialMedia from "../components/SocialMedia";
 import styles from "../styles/contact.module.css";
+import Head from "next/head";
 
 export default function Contact() {
     return (
         <div>
+        <Head>
+			<title>About Me</title>
+			<meta name="James Nguyen"/>
+			<meta name="description" content="Information page about James"/>
+            <link rel="icon" type="image/png" href="/img/logo-icon.png"></link>
+		</Head>
             <div className={styles["contact-page"]}>
                 <div className={styles["contact-container"]}>
                     <img className={styles["about-me-photo"]} src="img/james-2.jpg" alt="james"/>

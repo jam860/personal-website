@@ -4,7 +4,8 @@ import Head from "next/head";
 
 export default function Blog() {
     const articleAPI = [
-        { title: "Personal Website", description: "Before making this website, I took a class called INFO 340, a web development class that inspired me to make this website. Since this was my first web development class, I was worried at first since I was a pretty slow...", class: "info340" },
+        { title: "Personal Website", description: "Before making this website, I took a class called INFO 340, a web development class that inspired me to make this website. Since this was my first web development class, I was worried at first since I was a pretty slow...", class: "personal" },
+        { title: "TravelMuse", description: "My friends and I wanted to create an interactive web application for itinerary planning. We wanted to create an application where visitors can make future and past trips, and save them for reference. As a result, we came up with...", class: "info340" },
         { title: "VisitUW", description: "We decided to build a mobile application for the University of Washington. More specifically, we wanted to create an application that would help tourists find attractions...", class: "info360" },
         { title: "UW Counseling Center Redesign", description: "Our goal was to identify an information problem within our community, and think of ways that we can solve it. I joined four others for this project project, and many of us had different ideas...", class: "info200" },
         { title: "AI Busted!!", description: "We created a small podcast called AI Busted!! to explore the use of AI in the criminal justice system. We wanted to learn more about how AI is utilized in law enforcement and to educate people about the potential...", class: "info350" },

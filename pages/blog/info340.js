@@ -6,43 +6,43 @@ export default function Info340() {
     return (
         <>
         <Head>
-			<title>Personal Website Blog</title>
+			<title>TravelMuse</title>
 			<meta name="James Nguyen"/>
-			<meta name="description" content="expereinces with making my own website"/>
+			<meta name="description" content="expereinces with INFO340"/>
             <link rel="icon" type="image/png" href="/img/logo-icon.png"></link>
 		</Head>
         <div className={styles["article-page"]}>
             <div className={styles["article-content-container"]}>
                 <div className={styles["content"]}>
                     <div className={styles["article-intro-photo-container"]}>
-                        <img className={styles["article-intro-photo"]} src="/img/info340.png" alt="logo" />
-                        <figcaption className={styles["picture-caption"]}>Photo of my logo!
-                        </figcaption>
+                        <img className={styles["article-intro-photo"]} src="/img/info340.png" alt="homepage of our website" />
+                        <figcaption className={styles["picture-caption"]}>Homepage of our itinerary website!</figcaption>
                     </div>
                     <div className={styles["article-content"]}>
-                        <h1 className={styles["article-title"]}>Personal Website</h1>
+                        <h1 className={styles["article-title"]}>TravelMuse</h1>
+                        <section></section>
+                        <p>For our project, we made an interactive itinerary planner using React! Take a look here: <a href="https://travelmuse.web.app/" target="_blank">TravelMuse</a>.</p>
                         <section>
-                            <p>Before making this website, I took a class called INFO 340, a web development class that inspired me to make this website. Since this was my first web development class, I was worried at first since I was a pretty slow coder. However, my professor, Joel Ross, made the content super approachable and made me absolutely love the experience. This class consisted of several problem sets along with a big group project at the end. It definitely was not the easiest class I had taken at UW, but I am super glad that I was able to take this class! However, in this article, I&apos;m going to emphasize more on my website process and the skills that I took from INFO 340 to create this website. This will probably be a smaller blog since there&apos;s not much to mention besides the layout and how I implemented some of the sections of the website! In addition, this website is still a work in progress.</p>
+                            <p>My friends and I wanted to create an interactive web application for itinerary planning. We wanted to create an application where visitors can make future and past trips, and save them for reference. As a result, we came up with a website called "TravelMuse", an itinerary planning website that allow users to create and save itineraries! At this point, my groupmates and I were pretty new to react, so we wanted to keep it simple. We started off with whiteboarding and visualizing how we wanted our website to look. We created some wireframes on paper, and discussed about details like fonts, color palette, logo and more. After the beginning phase, we started coding our website in HTML/CSS, and adjusted some of our styling ideas as we went along. We then started implementing our big features and mapping out how we wanted the itinerary planner to function. After implementing our features, we utilized firebase&apos;s realtime database to allow users to save their itineraries and upload their own photos. Since this was my very first web application that I have ever made, it was so cool being able to see people play around with our website application after we finished. It made me realize all the little intricate details that went into building a website.</p>
+
+                            <img className={styles["article-intro-photo"]} src="/img/info340-form.png" alt="form to create new trip itinerary" />
+                            <figcaption className={styles["picture-caption"]}>A form users can fill out to create a new trip itinerary.</figcaption>
+
+                            <h2>Project Reflection</h2>
+                            <p>I was super happy about how everything turned out, but there were still a lot of aspects of the project that I would have worked on if our team had more time. More specifically, I think the user experience while making an itinerary can be improved. One way that we could have improved the user experience was a map feature, where users can easily find their event location depending on what address they put in. We also wanted to include an autocomplete feature for inputting an address. This would significantly improve the user experience, making it so that users don&apos;t have to spend time inputting an address while also not requiring them to remember the address of each event. We would also like to revisit the speed for certain parts of the website. We found that uploading photos for trips and events was slow for users. We also found that navigating through different parts of the website was slow as well. I did a little more research outside of this class, and perhaps it would have been nice if were to utilized Server-Side rendering (SSR). Doing so would probably improve the performance of our website, while reducing the number of loading screens that users see.</p>
+
+                            <img className={styles["article-intro-photo"]} src="/img/info340-itinerary.png" alt="portion of a trip itinerary" />
+                            <figcaption className={styles["picture-caption"]}>A sample of what a trip itinerary might look like.</figcaption>
                         </section>
 
                         <section>
-                            <h2>Website Goals</h2>
-                            <p>Before starting to code, I needed to think of what I wanted for this website. I wanted to incorporate a blogging section where I journal about the classes I&apos;ve taken, projects that I&apos;ve done, and other extracurricular activities that I did outside of academics. I wasn&apos;t quite sure if I wanted to separate projects and blogs, but I decided that it would probably be easier for people to find articles by having everything under the blog section! Plus, I&apos;m thinking of adding a search feature so that it&apos;s easier to go through the articles as well.</p>
-                            <p>Since I was still relatively new to HTML/CSS, JavaScript and React, I knew that I didn&apos;t want to make a super complex website, but I thought of ways to make it a somewhat challenging project. I used a React framework called next.js which is super helpful with routing websites and have server-side rendering to make everything super fast. In terms of styling, I wanted a palette that was welcoming and easy on the eyes. Blue has always been one of my favorite colors, so I decided to surround my palette around a muted blue color.</p>
+                            <h2>INFO 340: Client-Side Development</h2>
+                            <p>INFO 340 was a super fun class! I thoroughly enjoyed all the content that this class had to offer, and it made me inspired to take more software-oriented classes. We went over a bunch of topics throughout the quarter: HTML/CSS, Accessibility Standards, Responsive Design, JavaScript, Document Object Model (DOM), ES6+ features, React/Client-Side Routing, AJAX requests, Firebase, and probably a lot of other topics that I forgot to mention. This class really helped me to understand how websites are made, and some of the common practices that industry uses to create websites.</p>
+
+                            <h2>Accessibility</h2>
+                            <p> Out of all the topics that we learned about, I thoroughly enjoyed the Accessibility Standards and the React section of the class. Especially with accessibility, I feel like it hasn't been discussed enough in my previous programming classes. It is really important that we create programs that are open and accessible to a wide range of people. I certainly have had many friends and family members tell me that it can be difficult to access certain things on the web because of a bunch of reasons: the buttons were too small to click; the screen size didn't fit their screens; it was difficult to see some text; the colors were not contrasted enough; the screen reader read the website really weirdly; and a lot more. Especially for those who have a disability, it can sometimes feel like they aren't thinking about it when creating a product. While this class introduced students to how we can design accessible websites for everyone, I hope to take more classes that are centered around accessibility in web development and making products in general. For our project, we tried our best in making our website accessible, but we know that this is another sector that we could heavily improve on. </p>
                         </section>
 
-                        <section>
-                            <h2>The Process</h2>
-                            <p>Starting with the navigation bar, I wanted to keep it super simple. I had my logo which redirects to the homepage, along with two other links that point the user to either the blog page or the contact me page. For the start of my homepage, I had a picture of myself and a little introduction. Below that, I had a couple of images that others could click on to get in contact with me. Below the introduction, I had another section that has a carousel with featured blogs. I used a new library called Swiper.js, which I hadn&apos;t used before, but it was interesting to see how it worked. Lastly, for all pages, I wanted to add a footer with ways to contact me. I once again included a links that users could use to get in touch with me. In order to make these sections, I heavily relied on using flexboxes in order to align everything correctly. </p>
-                            <p>As for the about me page, I expanded more on myself from the homepage. It mostly gives more information about activities that I partake in within the iSchool, and other activities I like to do outside of school.</p>
-                            <p>The blog page consists of written articles that I&apos;ve made about my classes, projects, and some of the non-academic things. I also made a lot of components using React such as “article cards” and the actual “article preview” which lists those article cards. Each card basically led to a blog about the topic that I was writing about. Each article card contains the title, a small description of the article and a small image on the right. I used a flexbox to center everything so that it was easy to look through the articles.</p>
-                            <p>As for the articles themselves, I included a picture on the top of each article along with the title of the article and its content. I centered everything and included subheadings for each of my articles to make it easier for people to read! Again, I used a flexbox to center everything and make it the <em>center</em> of attention.</p>
-                        </section>
-
-                        <section>
-                            <h2>Reflection</h2>
-                            <p>I had a ton of fun making this website! It really helped to practice a lot of the skills that are fundamental to web development, and I thoroughly enjoyed making the components to make this website feel more alive. There are a lot of parts of the website that I could improve on, but I think this is a really good starting point. Some ideas that I had in mind include adding a search bar so that it&apos;s easy to search for the articles that I had written. My homepage and other sections of the website are simple, but I wanted to add more smaller details to give it a bit more spice. I hope I can continually improve on this website throughout the rest of my college years, and perhaps enlighten future students about classes/projects that are at the iSchool. Thanks for reading!</p>
-                        </section>
                     </div>
                     <div className={styles["return-blog-container"]}>
                         <Link href="/blog"> <button className={styles["return-blogs"]}>Back to Blogs</button> </Link>

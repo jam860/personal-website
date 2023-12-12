@@ -64,11 +64,11 @@
     font-size: 3.2rem;
   }
   
-  .info200, .info350 {
+  .info200, .info350, .info340 {
     object-position: 0% 50%
   }
   
-  .info360, .info340 {
+  .info360, .personal {
     object-position: 50% 0%;
   }
 
